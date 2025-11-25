@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+lib/
+.pioenvs/
+
+# Compiled binaries
+*.bin
+*.elf
+
+# Debug files
+*.log
+*.dmp
+
+# System files
+.DS_Store
+Thumbs.db
+._*
+ehthumbs.db
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# Visual Studio Code
+.vscode/
