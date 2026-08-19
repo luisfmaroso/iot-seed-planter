@@ -247,7 +247,7 @@ WriteState writeState;
 void setup()
 {
   //blynk
-  Serial.begin(9400); // debug console
+  Serial.begin(9600); // debug console
   Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
   timer.setInterval(1000L, myTimerEvent); // setup a function to be called every second
 
